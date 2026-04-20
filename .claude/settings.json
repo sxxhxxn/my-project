@@ -1,12 +1,24 @@
 {
+    "$schema": "https://json.schemastore.org/claude-code-settings.json",
     "permissions": {
       "allow": [
         "Bash(git checkout *)",
         "Bash(git merge *)",
-        "Bash(git push *)"
+        "Bash(git push *)",
+        "Skill(git-commit *)",
+        "Skill(Skill-creator)",
+        "Bash(pnpm build *)",
+        "Skill(frontend-design)",
+        "Bash(python *)",
+        "Bash(tree *)",
+        "WebSearch",
+        "WebFetch(domain:developers.google.com)",
+        "WebFetch(domain:www.npmjs.com)",
+        "mcp__plawright__browser_navigate"
       ],
       "deny": [],
-      "ask": []
+      "ask": [],
+      "defaultMode": "plan"
     },
     "outputStyle": "Explanatory"
   }
